@@ -1,0 +1,48 @@
+$date
+	Fri Jun 06 12:44:11 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	10ns
+$end
+$scope module one_bit_half_adder_tb $end
+$scope module test $end
+$var wire 1 ! A $end
+$var wire 1 " B $end
+$var wire 1 # cout $end
+$var wire 1 $ sum $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+x$
+x#
+x"
+x!
+$end
+#10
+0$
+0#
+0"
+0!
+#20
+1$
+1"
+#30
+0$
+1#
+1!
+#40
+1$
+0#
+0"
+#50
+1"
+0!
+#60
