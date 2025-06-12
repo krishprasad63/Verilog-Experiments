@@ -1,0 +1,46 @@
+$date
+	Thu Jun 12 13:15:27 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module three_to_eight_decoder_tb $end
+$scope module uut $end
+$var wire 3 ! inp [2:0] $end
+$var reg 8 " out [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1 "
+b0 !
+$end
+#100
+b10 "
+b1 !
+#200
+b100 "
+b10 !
+#300
+b1000 "
+b11 !
+#400
+b10000 "
+b100 !
+#500
+b100000 "
+b101 !
+#600
+b1000000 "
+b110 !
+#700
+b10000000 "
+b111 !
+#800
