@@ -1,0 +1,183 @@
+$date
+	Fri Jun 13 13:20:36 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module four_bit_comparator_tb $end
+$scope module uut $end
+$var wire 4 ! A [3:0] $end
+$var wire 1 " AEB $end
+$var wire 1 # AGB $end
+$var wire 1 $ ALB $end
+$var wire 4 % B [3:0] $end
+$var wire 1 & nota0 $end
+$var wire 1 ' nota1 $end
+$var wire 1 ( nota2 $end
+$var wire 1 ) nota3 $end
+$var wire 1 * notb0 $end
+$var wire 1 + notb1 $end
+$var wire 1 , notb2 $end
+$var wire 1 - notb3 $end
+$var wire 1 . og1 $end
+$var wire 1 / og2 $end
+$var wire 1 0 og3 $end
+$var wire 1 1 og4 $end
+$var wire 1 2 ol1 $end
+$var wire 1 3 ol2 $end
+$var wire 1 4 ol3 $end
+$var wire 1 5 ol4 $end
+$var wire 1 6 x0 $end
+$var wire 1 7 x1 $end
+$var wire 1 8 x2 $end
+$var wire 1 9 x3 $end
+$var wire 1 : yg0 $end
+$var wire 1 ; yg1 $end
+$var wire 1 < yg2 $end
+$var wire 1 = yl0 $end
+$var wire 1 > yl1 $end
+$var wire 1 ? yl2 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0?
+0>
+0=
+0<
+0;
+0:
+19
+18
+17
+16
+05
+04
+03
+02
+01
+00
+0/
+0.
+1-
+1,
+1+
+1*
+1)
+1(
+1'
+1&
+b0 %
+0$
+0#
+1"
+b0 !
+$end
+#10
+0"
+1#
+07
+0,
+0+
+1>
+09
+1.
+0<
+0)
+0(
+b110 %
+b1100 !
+#20
+0#
+0.
+1"
+0>
+19
+0-
+17
+0'
+b1110 %
+b1110 !
+#30
+1$
+13
+0"
+1?
+1-
+0*
+08
+0:
+1)
+1(
+0&
+b111 %
+b11 !
+#40
+15
+03
+1=
+18
+1,
+0?
+06
+1&
+b11 %
+b10 !
+#50
+0$
+1"
+05
+0#
+0/
+16
+0-
+0,
+1*
+0=
+0.
+0<
+0)
+0(
+b1110 %
+b1110 !
+#60
+1#
+0"
+11
+06
+1:
+0&
+b1111 !
+#70
+1/
+1#
+1<
+01
+08
+1-
+1,
+16
+0:
+1)
+1&
+b10 %
+b110 !
+#80
+1$
+0#
+13
+0/
+0,
+1?
+0<
+1(
+b110 %
+b10 !
+#90
