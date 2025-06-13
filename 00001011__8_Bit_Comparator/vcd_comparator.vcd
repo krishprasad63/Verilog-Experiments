@@ -1,0 +1,470 @@
+$date
+	Fri Jun 13 13:04:37 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module eight_bit_comparator_tb $end
+$scope module uut $end
+$var wire 8 ! A [7:0] $end
+$var wire 1 " AEB $end
+$var wire 1 # AGB $end
+$var wire 1 $ ALB $end
+$var wire 8 % B [7:0] $end
+$var wire 1 & alb_low $end
+$var wire 1 ' alb_high $end
+$var wire 1 ( agb_low $end
+$var wire 1 ) agb_high $end
+$var wire 1 * aeb_low $end
+$var wire 1 + aeb_high $end
+$scope module M1 $end
+$var wire 4 , A [3:0] $end
+$var wire 1 + AEB $end
+$var wire 1 ) AGB $end
+$var wire 1 ' ALB $end
+$var wire 4 - B [3:0] $end
+$var wire 1 . nota0 $end
+$var wire 1 / nota1 $end
+$var wire 1 0 nota2 $end
+$var wire 1 1 nota3 $end
+$var wire 1 2 notb0 $end
+$var wire 1 3 notb1 $end
+$var wire 1 4 notb2 $end
+$var wire 1 5 notb3 $end
+$var wire 1 6 og1 $end
+$var wire 1 7 og2 $end
+$var wire 1 8 og3 $end
+$var wire 1 9 og4 $end
+$var wire 1 : ol1 $end
+$var wire 1 ; ol2 $end
+$var wire 1 < ol3 $end
+$var wire 1 = ol4 $end
+$var wire 1 > x0 $end
+$var wire 1 ? x1 $end
+$var wire 1 @ x2 $end
+$var wire 1 A x3 $end
+$var wire 1 B yg0 $end
+$var wire 1 C yg1 $end
+$var wire 1 D yg2 $end
+$var wire 1 E yl0 $end
+$var wire 1 F yl1 $end
+$var wire 1 G yl2 $end
+$upscope $end
+$scope module M2 $end
+$var wire 4 H A [3:0] $end
+$var wire 1 * AEB $end
+$var wire 1 ( AGB $end
+$var wire 1 & ALB $end
+$var wire 4 I B [3:0] $end
+$var wire 1 J nota0 $end
+$var wire 1 K nota1 $end
+$var wire 1 L nota2 $end
+$var wire 1 M nota3 $end
+$var wire 1 N notb0 $end
+$var wire 1 O notb1 $end
+$var wire 1 P notb2 $end
+$var wire 1 Q notb3 $end
+$var wire 1 R og1 $end
+$var wire 1 S og2 $end
+$var wire 1 T og3 $end
+$var wire 1 U og4 $end
+$var wire 1 V ol1 $end
+$var wire 1 W ol2 $end
+$var wire 1 X ol3 $end
+$var wire 1 Y ol4 $end
+$var wire 1 Z x0 $end
+$var wire 1 [ x1 $end
+$var wire 1 \ x2 $end
+$var wire 1 ] x3 $end
+$var wire 1 ^ yg0 $end
+$var wire 1 _ yg1 $end
+$var wire 1 ` yg2 $end
+$var wire 1 a yl0 $end
+$var wire 1 b yl1 $end
+$var wire 1 c yl2 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0c
+0b
+0a
+0`
+0_
+0^
+1]
+1\
+1[
+1Z
+0Y
+0X
+0W
+0V
+0U
+0T
+0S
+0R
+1Q
+1P
+1O
+1N
+1M
+1L
+1K
+1J
+b0 I
+b0 H
+0G
+0F
+0E
+0D
+0C
+0B
+1A
+1@
+1?
+1>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+15
+14
+13
+12
+11
+10
+1/
+1.
+b0 -
+b0 ,
+1+
+1*
+0)
+0(
+0'
+0&
+b0 %
+0$
+0#
+1"
+b0 !
+$end
+#10
+1#
+0"
+1(
+0*
+1U
+0Z
+1^
+0J
+b1 H
+b1 !
+#20
+1$
+0#
+1'
+0(
+1;
+0+
+1*
+0U
+0@
+04
+03
+1G
+0>
+0C
+1B
+0/
+0.
+1Z
+0^
+1J
+b110 -
+b11 ,
+b0 H
+b1100000 %
+b110000 !
+#30
+0#
+0;
+1<
+0)
+0G
+1F
+05
+1@
+0?
+1>
+06
+0B
+01
+00
+1/
+1.
+b1110 -
+b1100 ,
+b11100000 %
+b11000000 !
+#40
+0'
+1+
+0<
+0*
+1&
+1?
+15
+14
+13
+0F
+0]
+0\
+0Q
+0P
+1V
+1c
+11
+10
+b0 -
+b1100 I
+b0 ,
+b1100 %
+b0 !
+#50
+0$
+1"
+1*
+0&
+1]
+1\
+1Q
+1P
+0V
+0c
+b0 I
+b0 %
+#60
+0#
+0)
+07
+05
+04
+06
+0D
+01
+00
+b1100 -
+b1100 ,
+b11000000 %
+b11000000 !
+#70
+0#
+0)
+08
+09
+0(
+0S
+0T
+0U
+03
+02
+0Q
+0P
+0O
+0N
+0C
+0B
+0/
+0.
+0R
+0`
+0_
+0^
+0M
+0L
+0K
+0J
+b1111 -
+b1111 I
+b1111 ,
+b1111 H
+b11111111 %
+b11111111 !
+#80
+1#
+1)
+19
+1(
+0"
+0+
+1B
+1R
+0*
+1c
+1b
+0>
+14
+13
+12
+0]
+1Q
+1N
+10
+1/
+0\
+0[
+1L
+1K
+1J
+b1000 -
+b110 I
+b1001 ,
+b1000 H
+b10000110 %
+b10011000 !
+#90
+0#
+0)
+1"
+1+
+09
+1*
+0(
+15
+1\
+1[
+1P
+1O
+0c
+0b
+1>
+0B
+11
+1.
+1]
+0R
+1M
+b0 -
+b0 I
+b0 ,
+b0 H
+b0 %
+b0 !
+#100
+1$
+0"
+1&
+0#
+0*
+1X
+0)
+07
+0(
+0S
+05
+04
+0[
+0Z
+0Q
+0P
+0O
+0N
+1b
+1a
+06
+0D
+01
+00
+0R
+0`
+0M
+0L
+b1100 -
+b1111 I
+b1100 ,
+b1100 H
+b11001111 %
+b11001100 !
+#110
+14
+1Z
+1Q
+1N
+0a
+10
+1M
+b1000 -
+b110 I
+b1000 ,
+b100 H
+b10000110 %
+b10000100 !
+#120
+0$
+1(
+1#
+0&
+1S
+0)
+0X
+1`
+07
+15
+04
+0\
+1P
+0D
+11
+00
+b100 -
+b10 I
+b100 ,
+b1000010 %
+b1000100 !
+#130
+0#
+1"
+0(
+0S
+0)
+1*
+0`
+08
+09
+14
+03
+02
+1\
+1[
+0Q
+0P
+1O
+0b
+0C
+0B
+10
+0/
+0.
+0R
+0M
+b11 -
+b1100 I
+b11 ,
+b1100 H
+b111100 %
+b111100 !
+#140
