@@ -1,0 +1,303 @@
+$date
+	Thu Jun 19 13:58:59 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_jk_flip_flop $end
+$var wire 1 ! Qn $end
+$var wire 1 " Q $end
+$var reg 1 # C $end
+$var reg 1 $ J $end
+$var reg 1 % K $end
+$var reg 1 & RESETn $end
+$scope module uut $end
+$var wire 1 # C $end
+$var wire 1 ' Cn $end
+$var wire 1 $ J $end
+$var wire 1 ( J1 $end
+$var wire 1 % K $end
+$var wire 1 ) K1 $end
+$var wire 1 & RESETn $end
+$var wire 1 ! Qn $end
+$var wire 1 " Q $end
+$var wire 1 * MQn $end
+$var wire 1 + MQ $end
+$var wire 1 , K2 $end
+$var wire 1 - J2 $end
+$scope module master $end
+$var wire 1 # G $end
+$var wire 1 + Q $end
+$var wire 1 * Qn $end
+$var wire 1 , R $end
+$var wire 1 . R1 $end
+$var wire 1 - S $end
+$var wire 1 / S1 $end
+$upscope $end
+$scope module slave $end
+$var wire 1 ' G $end
+$var wire 1 " Q $end
+$var wire 1 ! Qn $end
+$var wire 1 * R $end
+$var wire 1 0 R1 $end
+$var wire 1 + S $end
+$var wire 1 1 S1 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+x1
+x0
+0/
+0.
+0-
+1,
+x+
+x*
+0)
+0(
+1'
+0&
+0%
+0$
+0#
+x"
+x!
+$end
+#5000
+1*
+01
+00
+0+
+0'
+1.
+1#
+#10000
+1!
+0"
+10
+0,
+1'
+0.
+0#
+1&
+#15000
+00
+0'
+1#
+#20000
+10
+1-
+1'
+1(
+0#
+1$
+#25000
+1+
+00
+0*
+0'
+1/
+1#
+#30000
+0-
+1"
+0(
+0!
+11
+1'
+0/
+0#
+#35000
+01
+0'
+1#
+#40000
+1,
+11
+1'
+1)
+0#
+1%
+0$
+#45000
+1*
+01
+0+
+0'
+1.
+1#
+#50000
+0,
+1!
+0)
+0"
+10
+1'
+0.
+0#
+#55000
+00
+0'
+1#
+#60000
+10
+1-
+1'
+1(
+0#
+1$
+#65000
+1+
+00
+0*
+0'
+1/
+1#
+#70000
+1,
+1)
+0-
+1"
+0(
+0!
+11
+1'
+0/
+0#
+#75000
+1*
+01
+0+
+0'
+1.
+1#
+#80000
+1!
+0"
+0,
+10
+1'
+0.
+0)
+0#
+0%
+0$
+#85000
+00
+0'
+1#
+#90000
+10
+1'
+0#
+#95000
+00
+0'
+1#
+#100000
+10
+1-
+1'
+1(
+0#
+1$
+#105000
+1+
+00
+0*
+0'
+1/
+1#
+#110000
+0-
+1"
+0(
+0!
+11
+1'
+0/
+0#
+#115000
+01
+0'
+1#
+#120000
+1,
+11
+1'
+1)
+0#
+1%
+0$
+#125000
+1*
+01
+0+
+0'
+1.
+1#
+#130000
+0,
+1!
+0)
+0"
+10
+1'
+0.
+0#
+#135000
+00
+0'
+1#
+#140000
+10
+1-
+1'
+1(
+0#
+1$
+#145000
+1+
+00
+0*
+0'
+1/
+1#
+#150000
+1,
+1)
+0-
+1"
+0(
+0!
+11
+1'
+0/
+0#
+#155000
+1*
+01
+0+
+0'
+1.
+1#
+#160000
+1-
+0,
+1(
+1!
+0)
+0"
+10
+1'
+0.
+0#
