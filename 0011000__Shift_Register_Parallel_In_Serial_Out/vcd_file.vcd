@@ -1,0 +1,197 @@
+$date
+	Fri Jun 27 13:23:05 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module shift_register_PISO_tb $end
+$var wire 1 ! q_out $end
+$var reg 1 " clk $end
+$var reg 4 # data [3:0] $end
+$var reg 1 $ rst $end
+$var reg 1 % shift $end
+$scope module uut $end
+$var wire 4 & B [3:0] $end
+$var wire 1 " clk $end
+$var wire 4 ' data [3:0] $end
+$var wire 1 ( load $end
+$var wire 1 $ rst $end
+$var wire 1 % shift $end
+$var wire 1 ! q_out $end
+$var wire 4 ) Q [3:0] $end
+$var wire 4 * D [3:0] $end
+$scope module m1 $end
+$var wire 1 " clk $end
+$var wire 1 + d $end
+$var wire 1 $ rst $end
+$var reg 1 , q $end
+$upscope $end
+$scope module m2 $end
+$var wire 1 " clk $end
+$var wire 1 - d $end
+$var wire 1 $ rst $end
+$var reg 1 . q $end
+$upscope $end
+$scope module m3 $end
+$var wire 1 " clk $end
+$var wire 1 / d $end
+$var wire 1 $ rst $end
+$var reg 1 0 q $end
+$upscope $end
+$scope module m4 $end
+$var wire 1 " clk $end
+$var wire 1 1 d $end
+$var wire 1 $ rst $end
+$var reg 1 2 q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+b0 *
+b0 )
+1(
+b0 '
+b0 &
+0%
+1$
+b0 #
+0"
+0!
+$end
+#5000
+1"
+#10000
+0"
+0$
+#15000
+1"
+#20000
+1/
+1+
+b101 *
+0"
+b101 &
+b101 #
+b101 '
+#25000
+10
+b101 )
+1,
+1"
+#30000
+0/
+1-
+11
+b1011 *
+0(
+0"
+1%
+#35000
+1/
+01
+b111 *
+1!
+1.
+00
+b1011 )
+12
+1"
+#40000
+0"
+#45000
+11
+b1111 *
+0!
+02
+b111 )
+10
+1"
+#50000
+0"
+#55000
+1!
+b1111 )
+12
+1"
+#60000
+0"
+#65000
+1"
+#70000
+0"
+#75000
+1"
+#80000
+1-
+0/
+11
+0+
+b1010 *
+1(
+0"
+b1010 &
+b1010 #
+b1010 '
+0%
+#85000
+00
+b1010 )
+0,
+1"
+#90000
+0-
+01
+1/
+b100 *
+0(
+0"
+1%
+#95000
+0/
+11
+b1000 *
+0!
+0.
+10
+b100 )
+02
+1"
+#100000
+0"
+#105000
+01
+b0 *
+1!
+12
+b1000 )
+00
+1"
+#110000
+0"
+#115000
+0!
+b0 )
+02
+1"
+#120000
+0"
+#125000
+1"
+#130000
+0"
